@@ -541,7 +541,7 @@ label {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    padding: 36px 18px;
+    padding: 30px 18px;
     display: block;
     line-height: 1;
     position: relative;
@@ -1198,7 +1198,7 @@ label {
 }
 .slider-content h2 {
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1.15;
     margin-bottom: 15px;
 }
@@ -1384,7 +1384,7 @@ label {
 
 /* 6. Car search */
 .car-search-wrap {
-    background: #fff;
+    background: #ffffffe3;
     border-radius: 5px;
     box-shadow: 0px 5px 14.88px 1.12px rgba(167, 167, 167, 0.15);
     padding: 50px 45px 30px;
@@ -1420,7 +1420,7 @@ label {
 	margin-bottom: 20px;
 }
 .car-search-form label {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
     color: #6e6b6b;
@@ -1432,7 +1432,7 @@ label {
     display: block;
     background: #f3f3f3;
     border-radius: 0;
-    padding: 22px 40px 22px 20px;
+    padding: 15px 40px 15px 20px;
     color: #73757a;
     font-weight: 400;
 }

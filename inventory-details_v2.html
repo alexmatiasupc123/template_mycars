@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+   
 
 <head>
         <meta charset="utf-8">
@@ -63,7 +63,7 @@
                         <div class="col-md-6 d-none d-md-block">
                             <div class="header-top-action">
                                 <ul>
-                                    <li><i class="far fa-envelope"></i><a href="https://themebeyond.com/cdn-cgi/l/email-protection#b5dcdbd3daf5c6c0c5c5dac7c19bd6dad8"><span class="__cf_email__" data-cfemail="fe97909891be8d8b8e8e918c8ad09d9193">[email&#160;protected]</span></a></li>
+                                    <li><i class="far fa-envelope"></i><a href="https://themebeyond.com/cdn-cgi/l/email-protection#442d2a222b04373134342b36306a272b29"><span class="__cf_email__" data-cfemail="3c55525a537c4f494c4c534e48125f5351">[email&#160;protected]</span></a></li>
                                     <li><i class="far fa-clock"></i> 10:00 AM To 5:00 PM</li>
                                 </ul>
                             </div>
@@ -97,27 +97,30 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
                                     <div class="logo">
-                                        <a href="index.html"><img src="img/logo/b_logo.png" alt="Logo"></a>
+                                        <a href="index.html"><img src="img/logo/b_logo.png" height="40px" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="dropdown"><a href="#">Home</a>
                                                 <ul class="submenu">
+                                                    <li><a href="index_home.html">Home</a></li>
                                                     <li><a href="index.html">Home One</a></li>
                                                     <li><a href="index-2.html">Home Two</a></li>
                                                     <li><a href="index-3.html">Home Three</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="#">INVENTORY</a>
+                                            <li class="dropdown active"><a href="#">INVENTORY</a>
                                                 <ul class="submenu">
                                                     <li><a href="inventory-list.html">Inventory List</a></li>
+                                                    <li><a href="inventory-list_v2.html">Inventory List v2</a></li>
                                                     <li><a href="inventory-details.html">Inventory Details</a></li>
+                                                    <li class="active"><a href="inventory-details_v2.html">Inventory Details v2</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown active"><a href="#">Pages</a>
+                                            <li class="dropdown"><a href="#">Pages</a>
                                                 <ul class="submenu">
                                                     <li><a href="about-us.html">About Us</a></li>
-                                                    <li class="active"><a href="loan-calculator.html">Loan Calculator</a></li>
+                                                    <li><a href="loan-calculator.html">Loan Calculator</a></li>
                                                     <li><a href="login-register.html">Login Page</a></li>
                                                 </ul>
                                             </li>
@@ -247,142 +250,230 @@
         <!-- main-area -->
         <main>
 
-            <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/breadcrumb_bg.jpg">
+            <!-- inventory-details-slide -->
+            <div class="inventory-details-slide">
+                <div class="container-fluid p-0 fix">
+                    <div class="row no-gutters inv-details-active">
+                        <div class="col-lg-4">
+                            <div class="inv-details-slide-item">
+                                <img src="img/images/inv_details_slide_item01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="inv-details-slide-item">
+                                <img src="img/images/inv_details_slide_item02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="inv-details-slide-item">
+                                <img src="img/images/inv_details_slide_item03.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="inv-details-slide-item">
+                                <img src="img/images/inv_details_slide_item02.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inv-details-meta-wrap">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-8 col-sm-7">
+                                <div class="inv-details-meta">
+                                    <div class="price-top">
+                                        <div class="price">Luxury Family BMW 7 Series Expensive</div>                                       
+                                    </div>
+                                    <div class="location">
+                                        <p><i class="flaticon-car-3"></i> 2020 | 5.940 Km | 110 CV | Gasolina | Manual</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-5" style="padding-left: 45px;padding-right: 5px;">
+                                <div class="inv-details-meta">
+                                    <div class="price-top">
+                                        <div class="price">13,000<span>/mo</span></div>
+                                        <div class="tag"><a href="#">For Rent</a></div>
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- inventory-details-slide-end -->
+
+            <!-- inventory-list-area -->
+            <section class="inventory-details-area gray-lite-bg pt-120 pb-120">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="breadcrumb-content text-center">
-                                <h2>Auto Loan Calculator</h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Loan Calculator</li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- breadcrumb-area-end -->
-
-            <!-- loan-calculator-area -->
-            <section class="loan-calculator-area pb-120">
-                <div class="container">
-                    <div class="calculator-loan">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form loan-calculator-form">
-
+                        <div class="col-lg-8">
+                            <div class="inventory-features mb-30">
+                                <div class="inv-details-title">
+                                    <h5>Inventory Features</h5>
                                 </div>
-                                <ul class="loan-terms-conditions">
-                                    <li>
-                                        <i class="far fa-check-square"></i>
-                                        <p>There are many variations of passaes of orem ipsum available, but the majority have in some form, by ipsum injected</p>
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check-square"></i>
-                                        <p>Placlder text commonly used detrate theyjlos visual form amet.</p>
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check-square"></i>
-                                        <p>consectetur ading elitmod tempor used detrate theyjlos visual.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="loan-result-wrap">
-                                    <div class="section-title text-center mb-30">
-                                        <h2 class="title">your estimated <span>amount</span></h2>
-                                        <div class="line"><img src="img/images/title_line.png" alt=""></div>
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-4">
+                                        <div class="inventory-features-item">
+                                            <h6>Body Type :</h6>
+                                            <span>Coupe</span>
+                                        </div>
+                                        <div class="inventory-features-item">
+                                            <h6>Make :</h6>
+                                            <span>BMW</span>
+                                        </div>
                                     </div>
-                                    <div class="results"></div>
+                                    <div class="col-md-3 col-sm-4">
+                                        <div class="inventory-features-item">
+                                            <h6>Transmission :</h6>
+                                            <span>Automatic</span>
+                                        </div>
+                                        <div class="inventory-features-item">
+                                            <h6>Year :</h6>
+                                            <span>2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4">
+                                        <div class="inventory-features-item">
+                                            <h6>Condition :</h6>
+                                            <span>New</span>
+                                        </div>
+                                        <div class="inventory-features-item">
+                                            <h6>Fuel Type :</h6>
+                                            <span>Petrol</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4">
+                                        <div class="inventory-features-item">
+                                            <h6>Drive Type :</h6>
+                                            <span>Front Wheel Drive</span>
+                                        </div>
+                                        <div class="inventory-features-item">
+                                            <h6>Doors :</h6>
+                                            <span>5-door</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="inventory-details-description mb-30">
+                                <div class="inv-details-title">
+                                    <h5>Description</h5>
+                                </div>
+                                <p><span>Aouda was anxious</span> though she said nothing. As for Passepartout thought Mr. Fogg’s manovre simply glorious. The captain
+                                had said “betwen eleven and twve knots,” and the Henrietta said the confirmed his she said nothing prediction. There are
+                                many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                                injected.</p>
+                                <div class="vehicle-history">
+                                    <h5>Vehicle history</h5>
+                                    <p>As for Passepartout thought Mr. Fogg’s manovre simply gorious. The captain had said “betwen eleven and twve knots,” and
+                                    the Henrietta said the confirmed his she said nothing prdiction. There are many variations of passages of Lorem Ipsum
+                                    available, but the majority.</p>
+                                </div>
+                                <div class="inv-details-img">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <img src="img/images/inv_details_img01.jpg" alt="">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <img src="img/images/inv_details_img02.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Aliquet cursus quam. Pellentesque pulvin condimentum dictum, sapien auctor tortoris vulput sapien tortor velit. Sed
+                                nulla congue euqua moltie grvida ipsum. Curabitr lacus vitae tellus lacinia pretium. Proin vestibulum sollcitudin
+                                tortor, quis auctor mi rutrum.</p>
+                                <div class="inv-details-list">
+                                    <ul>
+                                        <li>Sapien auctor tortoris vulputate sapien ?</li>
+                                        <li>Curabitr lacus vitae tellus lacinia pretium vulputate ?</li>
+                                        <li>Tellus orci auctor augue mauris ?</li>
+                                    </ul>
+                                </div>
+                                <p>Aliquet cursus quam. Pellentesque pulvin condimentum dictum, sapien auctor tortoris vulput sapien tortor velit. Sed
+                                nulla congue euqua moltie grvida ipsu Curabitr lacus,</p>
+                            </div>
+                            <div class="inventory-details-location mb-30">
+                                <div class="inv-details-title">
+                                    <h5>Inventory Features</h5>
+                                    <p class="location">Wast San Park St, New york, NY 98 <i class="flaticon-placeholder-1"></i></p>
+                                </div>
+                                <div class="inv-details-map">
+                                    <img src="img/bg/inv_loacation.jpg" alt="">
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-4">
+                            <aside class="inventory-sidebar"> 
+                                <div class="widget inventory-widget">
+                                    <div class="inv-widget-title mb-25">
+                                        <h5 class="title">Listed By Advisor</h5>
+                                    </div>
+                                    <div class="advisor-wrap mb-25">
+                                        <div class="advisor-thumb">
+                                            <img src="img/images/sidebar_listed_img.png" alt="">
+                                        </div>
+                                        <div class="advisor-info">
+                                            <h5><a href="#">Hamil Alexander.</a></h5>
+                                           <div class="phone">
+                                                <a href="tel:0987654321"><i class="flaticon-phone-call"></i> (123)456-7890</a>
+                                           </div>
+                                            <a href="author-profile.html" class="profile">Advisor Profile</a>
+                                        </div>
+                                    </div>
+                                    <form action="#" class="advisor-form">
+                                        <input type="text" placeholder="Your Name *">
+                                        <input type="email" placeholder="Your Email *">
+                                        <textarea name="message" placeholder="I'm interest in { Linting Single }"></textarea>
+                                        <button class="btn">Search</button>
+                                    </form>
+                                </div>                               
+                                <div class="widget inventory-widget">
+                                    <div class="inv-widget-title mb-25">
+                                        <h5 class="title">Featured Vehicles</h5>
+                                    </div>
+                                    <div class="sidebar-fv-active">
+                                        <div class="sidebar-fv-item" data-background="img/images/sidebar_featured_vehicle01.jpg">
+                                            <div class="fv-top-tag">
+                                                <ul>
+                                                    <li><a href="#">For Rent</a></li>
+                                                    <li><a class="new" href="#">New Car</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="sidebar-fv-content">
+                                                <h5>$11,000<span>/mo</span></h5>
+                                                <p><a href="inventory-details.html">BMW 8 - Series 2 Door</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="sidebar-fv-item" data-background="img/images/sidebar_featured_vehicle02.jpg">
+                                            <div class="fv-top-tag">
+                                                <ul>
+                                                    <li><a href="#">For Rent</a></li>
+                                                    <li><a class="new" href="#">New Car</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="sidebar-fv-content">
+                                                <h5>$29,000<span>/mo</span></h5>
+                                                <p><a href="inventory-details.html">Audi - A4 Sedan XL</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-loan-calculator">
+                                        <a href="loan-calculator.html"><i class="fas fa-calculator"></i><span>Auto Loan Calculator</span></a>
+                                    </div>
+                                </div>                                
+                            </aside>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- loan-calculator-area-end -->
+            <!-- inventory-list-area-end -->
 
-            <!-- car-category-area -->
-            <section class="car-category-area pt-120 pb-120">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="section-title text-center mb-70">
-                                <h2 class="overlay-title">Browse cars</h2>
-                                <span class="sub-title">categories cars</span>
-                                <h2 class="title">Browse by Type cars</h2>
-                                <div class="line"><img src="img/images/title_line.png" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row car-category-active">
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat01.png" alt="">
-                                    <span>Hybrid i7</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat02.png" alt="">
-                                    <span>Jaguar W7</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat03.png" alt="">
-                                    <span>Hybrid 91H6</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat04.png" alt="">
-                                    <span>Toyota Aqua</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat05.png" alt="">
-                                    <span>Sedan 800</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat06.png" alt="">
-                                    <span>Toyota 7G9</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="car-cat-item">
-                                <a href="#">
-                                    <img src="img/images/car_cat04.png" alt="">
-                                    <span>Lamborghini</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- car-category-area-end -->
+
+
 
             <!-- footer-brand-area -->
-            <div class="footer-brand-area">
+            <div class="footer-brand-area white-bg">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-6 order-2 order-md-0">
@@ -461,7 +552,7 @@
                                             <div class="icon"><i class="fas fa-envelope"></i></div>
                                             <div class="content">
                                                 <span>EMAIL ADDRESs</span>
-                                                <p><a href="https://themebeyond.com/cdn-cgi/l/email-protection#94fdfaf2fbd4e7e1e4e4fbe6e0baf7fbf9"><span class="__cf_email__" data-cfemail="1e777078715e6d6b6e6e716c6a307d7173">[email&#160;protected]</span></a></p>
+                                                <p><a href="https://themebeyond.com/cdn-cgi/l/email-protection#0b62656d644b787e7b7b64797f25686466"><span class="__cf_email__" data-cfemail="98f1f6fef7d8ebede8e8f7eaecb6fbf7f5">[email&#160;protected]</span></a></p>
                                             </div>
                                         </li>
                                         <li>
@@ -588,6 +679,5 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
-
 
 </html>
