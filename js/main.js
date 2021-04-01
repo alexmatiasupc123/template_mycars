@@ -521,6 +521,28 @@ $("#slider-range").slider({
 });
 $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
 
+$("#precio-range").slider({
+	range: true,
+	min: 7000,
+	max: 75000,
+	values: [30000, 50000],
+	slide: function (event, ui) {
+		$("#precio").val("S/." + ui.values[0] + " - S/." + ui.values[1]);
+	}
+});
+$("#precio").val("S/." + $("#precio-range").slider("values", 0) + " - S/." + $("#precio-range").slider("values", 1));
+
+$("#anio-range").slider({
+	range: true,
+	min: 2000,
+	max: 2021,
+	values: [2006, 2012],
+	slide: function (event, ui) {
+		$("#anio").val("" + ui.values[0] + " - " + ui.values[1]);
+	}
+});
+$("#anio").val("" + $("#anio-range").slider("values", 0) + " - " + $("#anio-range").slider("values", 1));
+
 
 /*=============================================
 	=    	 Slider Range Active             =

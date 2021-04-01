@@ -1522,7 +1522,10 @@ label {
     text-transform: uppercase;
 }
 .car-search-wrap #amount,
-.car-search-wrap #milage {
+.car-search-wrap #milage,
+.car-search-wrap #precio,
+.car-search-wrap #anio,
+.car-search-wrap #km {
     border: none;
     background: transparent;
     min-width: 130px;
@@ -1532,7 +1535,10 @@ label {
     text-align: right;
 }
 .car-search-wrap #slider-range,
-.car-search-wrap #milage-range {
+.car-search-wrap #milage-range,
+.car-search-wrap #precio-range,
+.car-search-wrap #anio-range,
+.car-search-wrap #km-range {
     border: 1px solid #acacac;
     height: 6px;
     border-radius: 3px;
@@ -2243,7 +2249,7 @@ label {
     bottom: 0;
     width: 100%;
     height: 13px;
-    background: #ff5400;
+    background: #FFA300;
     transition: .3s linear;
     opacity: .18;
 }
