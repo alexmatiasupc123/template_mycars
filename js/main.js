@@ -543,6 +543,17 @@ $("#anio-range").slider({
 });
 $("#anio").val("" + $("#anio-range").slider("values", 0) + " - " + $("#anio-range").slider("values", 1));
 
+$("#km-range").slider({
+	range: true,
+	min: 0,
+	max: 10000,
+	values: [4000, 7000],
+	slide: function (event, ui) {
+		$("#km").val("" + ui.values[0] + " km. - " + ui.values[1]+" km.");
+	}
+});
+$("#km").val("" + $("#km-range").slider("values", 0) + " km. - " + $("#km-range").slider("values", 1)+" km.");
+
 
 /*=============================================
 	=    	 Slider Range Active             =
